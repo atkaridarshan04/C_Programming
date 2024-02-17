@@ -1,0 +1,7 @@
+Union and structures are likely same 
+
+Both structures and unions are used to group a number of different variables together. But while a
+structure enables us treat a number of different variables stored at different places in memory, a
+union enables us to treat the same space in memory as a number of different variables. That is, a  
+union offers a way for a section of memory to be treated as a variable of one type on one occasion, 
+and as a different variable of a different type on another occasion.
