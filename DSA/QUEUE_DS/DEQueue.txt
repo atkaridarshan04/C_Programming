@@ -1,0 +1,12 @@
+DEQueue - Double Ended Queue
+
+DEQueue does not follow FIFO
+
+We can do insertion and deletion from both sides in this. (if space is there)
+
+Two Types of DEQueue
+1.Input Restricted DEQueue :- In this insertion form front is not allowed.
+2.Output Restricted DEQueue :- In this deletion from rear is not allowed.
+
+
+https://www.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-47/
