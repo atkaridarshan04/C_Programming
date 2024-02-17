@@ -1,0 +1,1 @@
+fgetc is used to read one character from the file

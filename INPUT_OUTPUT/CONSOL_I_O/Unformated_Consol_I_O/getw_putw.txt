@@ -1,0 +1,12 @@
+Both are use to handle one integer at a time
+
+syntax:  putw(i,fp1);
+i : an integer variable
+fp1 : pointer to file ipened with mode w
+
+syntax: i = getw(fp2);
+i : an integer variable
+fp2 : pointer to file opened with mode r
+
+file pointer moves by one integer position, data stored in binary format native to local system
+getw() returns end-of-file marker EOF when file end reached 

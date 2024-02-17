@@ -1,0 +1,12 @@
+There are few mode that  can be done on the files
+
+1> "r" - open for reading  
+2> "rb" - open for reading in binary
+for the above if file does not exist then fopen returns NULL.
+
+3> "w" - opens for writing
+4> "wb" - opens for writingin binary
+for above two if file does not exist it will be created and if file exist then content will be overwrite
+
+5> "a" - opens for append 
+if file does not exist it will be created
