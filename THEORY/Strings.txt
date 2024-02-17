@@ -1,0 +1,7 @@
+The Character Array is called as STRING
+
+String is initialize as 
+char name[ ] = { 'H', 'A', 'E', 'S', 'L', 'E', 'R', '\0' } ; 
+where '\0' is null character which end the string array ,it is automatically understandable by C program.
+
+name[ i ] = *( name + i ) = *( i + name ) = i[ name ]

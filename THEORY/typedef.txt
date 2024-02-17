@@ -1,0 +1,13 @@
+'typedef' provides a short and meaningful way to call a data type.
+
+Consider the following statement in which the type 'unsigned long int' is redefined to be of 
+the type 'TWOWORDS'.
+typedef unsigned long int TWOWORDS;  --> application
+
+Now we can declare variables of the type unsigned long int by writing,
+TWOWORDS var1, var2 ;
+
+instead of :-
+unsigned long int var1, var2;
+
+This can be done on structures, structure pointers , etc.

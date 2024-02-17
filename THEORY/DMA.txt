@@ -1,0 +1,27 @@
+Dynamic Memory Allocation 
+Its is a way to allocate memory to a data structure during a runtime ,which is provided by heap.
+
+Following are the functions in c to perform Dynamic 
+
+1> malloc :-
+It stands for memory allocation , it takes number of bytes to be allocates as an input and returns returns a void pointer, therefore we use typecasting. It will return null pointer if memory is not allocated.
+Syntax :-
+ptr = (int *)malloc( x * sizeof(int));  // x is an integer 
+
+2> calloc :-
+It stands for continous allocation, it initialize each memory block with a default value of 0.If the space is not assigned then the momory allocation is failed and null pointer is returned.
+Syntax :-
+ptr = (float *)calloc(x, sizeof(float));   // x is an integer 
+
+3> free :-
+Use to deallocate the memory.
+In calloc and malloc the memory is not deallocated automatically.
+Syntax :-
+free(ptr);
+
+4> realloc :-
+Sometimes the dynamically allocated memory is more or insufficient than required.
+realloc is used to allocate memory of new size using previous pointer and size.
+Syntax :-
+ptr = realloc(ptr, newsize)
+i.e ptr = realloc(ptr, x * sizeof(int));    // x is an integer 

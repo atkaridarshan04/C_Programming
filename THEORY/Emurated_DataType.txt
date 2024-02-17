@@ -1,0 +1,24 @@
+The enumerated data type gives you an opportunity to invent your own data type and define what values 
+the variable of this data type can take. 
+
+Declaration is same as structures :-
+
+enum mar_status
+{
+single, married, divorced, widowed      // -- > these are values called as emurators
+} ;
+enum mar_status person1, person2 ;
+
+person1 and person2 are variables, we can assign values to them as 
+person1 = married ;
+person2 = divorced ;
+
+Internally the compiler treats the emurators as intergers as
+by default -> single is stored as 0 , married is stored as 1 and so on.
+
+But we can assign as we want
+enum mar_status
+{
+single = 100, married = 200, divorced = 300, widowed = 400
+};
+enum mar_status person1, person2 

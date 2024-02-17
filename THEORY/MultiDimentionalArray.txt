@@ -1,0 +1,17 @@
+Multi-Dimentional Array are also calles as MATRIX
+
+Two Dimentional
+A 2-D array is a collection of several 1-D arrays
+
+arr[5][3] --> The 1st subscript(row) value represnets the number of rows and 2nd subscript value(column) represent the no. of columns, whereas row subscript is optional but column subscript should be compulsory assigned. 
+
+arr[i][j] = *(arr[i]+j) = *(*(arr+i)+j)
+
+
+
+Three Dimentional Arrays are rarely uesd.
+A 3-D array is a collection of several 2-D arrays.
+
+
+
+All elements of a 2-D or a 3-D array are internally accessed using pointers.

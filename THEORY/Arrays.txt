@@ -1,0 +1,17 @@
+An array is a collective name given to the group of similar quantities
+Array is stored in stack .
+An array is also known as a subscripted variable
+
+Arrays of characters are called strings whereas an array of ints or floats is called
+simply an array
+
+Array is declared as
+int xyz[i] = { 1,2,3,54,99 };   // similarly for float, int.
+xyz is array or subscripted value where as i is subscript.
+
+    [] - is dimension of array, it is optional to write subscript.
+
+Array elements are always stored in contiguous memory locations.
+
+IMPORTANT
+num[i] = *(num + i) = *(i + num) = i[num]

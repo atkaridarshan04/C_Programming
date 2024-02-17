@@ -1,0 +1,36 @@
+// Initilazition
+
+struct book
+{
+    int pages;
+    float price;
+    char name;
+};
+struct book b1, b2, b3;
+
+OR
+
+struct book
+{
+    int pages;
+    float price;
+    char name;
+} b1,b2,b3;
+
+OR
+
+struct
+{
+    int pages;
+    float price;
+    char name;
+}b1,b2,b3;
+
+
+Accessing
+
+b1.pages 
+b1.names
+b1.price
+
+here b1 is structure variable and pages/name/price are structure elements

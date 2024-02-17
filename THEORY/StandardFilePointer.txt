@@ -1,0 +1,5 @@
+stdin - standard input device (keyboard)
+
+stdout - standard output device (Monitor)
+
+stderr - standard error device (Monitor)
