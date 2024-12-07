@@ -17,7 +17,7 @@ ptr = (float *)calloc(x, sizeof(float));   // x is an integer
 Use to deallocate the memory.
 In calloc and malloc the memory is not deallocated automatically.
 Syntax :-
-free(ptr);
+  free(ptr);
 
 4> realloc :-
 Sometimes the dynamically allocated memory is more or insufficient than required.
