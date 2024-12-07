@@ -1,0 +1,12 @@
+Linked list are used to store data in non-contigous memory locations
+We can add a new element in between link list without any hesitation and also can remove it which was not possible in an array.
+
+Linked list and array both have there own importance depending on the conditions
+Limked list is stored in heap as it is a dynamic memory
+
+Implemtation 
+
+Struct Node{
+    int data;       --> this is to store data
+    struct Node * next;   --> self refrencing structure  --. to point next value
+};

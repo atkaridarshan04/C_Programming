@@ -1,0 +1,5 @@
+Lorem   Having understood the first file I/O program in detail let us now try our 
+hand at one more.   Let us write a program that will read a file and count 
+how many characters, spaces, tabs and newlines are present in it.   Here 
+
+is the program… 

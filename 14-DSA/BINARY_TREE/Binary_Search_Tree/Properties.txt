@@ -1,0 +1,6 @@
+
+1> All the data in nodes of left Subtree are lesser than root
+2> All the data in nodes of right Subtree are greater than root
+3> Left and right Subtree are also BST (binary search tree)
+4> There are no dulpicate data
+*5> InOrder Traversal of binary search tree gives an ascending sorted array.

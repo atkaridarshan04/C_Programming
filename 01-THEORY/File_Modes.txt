@@ -1,0 +1,11 @@
+"r" - reading from the file.
+
+"w" - writing to the file.
+
+"a" - adding new contents at the end of file (appending).
+
+"r+" - reading existing contents, writing new contents, modifying existing contents of the file. 
+
+"w+" - writing new contents, reading them back and modifying existing contents of the file.
+
+"a+" - reading existing contents, appending new contents to end of file. Cannot modify existing contents.

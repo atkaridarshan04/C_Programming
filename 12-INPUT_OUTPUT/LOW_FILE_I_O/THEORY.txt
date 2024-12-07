@@ -1,0 +1,23 @@
+These ‘O-flags’ are defined in the file “fcntl.h”. So this file must be included in the program while using low-level file I/O
+
+O_APPEND - Opens a file for appending
+
+O_CREAT - Creates a new file for writing (has no effect if filealready exists)
+
+O_RDONLY - Opens a new file for reading only
+
+O_RDWR - Creates a file for both reading and writin
+
+O_WRONLY - Creates a file for writing only
+
+O_BINARY - Opens a file in binary mode
+
+O_TEXT - Opens a file in text mode
+
+----------------------------------------------------------------------------------------------------
+
+S_IWRITE - Writing to the file permitted
+S_IREAD - Reading from the file permitted
+
+To use these permissions, both the files “types.h” and “stat.h” must be 
+#included in the program alongwith “fcntl.h”.

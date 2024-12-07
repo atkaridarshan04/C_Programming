@@ -1,0 +1,15 @@
+4 type of storage class
+1 - Automatic Storage Class [ keyword = auto]
+2 - External Storage Class [ keyword = extern ]
+3 - Static Storage Class [ keyword = static ]
+4 - Register Storage Class [ keyword = register ]
+
+By default every storage class is automatic 
+
+External storage class is used to define a variable which is to be used in any function including main.
+
+Static storage class is used in loops i.e it holds the value and do operations on that value as told.
+
+Auto,extern,Static variables are stored in local function as defined.
+
+Register storage class is used to store value near CPU which will help in executing it faster. 
