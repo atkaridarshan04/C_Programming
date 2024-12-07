@@ -1,3 +1,6 @@
+Structure is a collection of dissimilar datatypes.
+Whatever be the elements of a structure, they are always stored in contiguous memory locations.
+
 // Initilazition
 
 struct book
