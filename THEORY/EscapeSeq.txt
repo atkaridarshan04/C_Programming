@@ -1,0 +1,17 @@
+\n - new line  
+
+\t - tab
+
+\b - backspace (moves the cursor one position to the left of its current position.)
+
+\r - carriage return (takes the cursor to the beginning of the line in which it is currently placed.)
+
+\a - alert  (alerts the user by sounding the speaker inside the computer.)
+
+\f - form feed
+
+\' - single quote
+
+\" - double quote
+
+\\ - backslash

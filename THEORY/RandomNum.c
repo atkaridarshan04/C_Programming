@@ -5,7 +5,7 @@
 int main()
 {
     int randomNumber;
-    srand(time(0));
+    srand(time(0)); // srand(seed), (time(0)): This returns the current time as the number of seconds elapsed since January 1, 1970.
     randomNumber = rand(); // prints any random number
     printf("%d", randomNumber);
 

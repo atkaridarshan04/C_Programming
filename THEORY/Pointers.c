@@ -27,7 +27,7 @@ int main()
     printf("The value of i = %d\n", *j); 
     printf("The value of i = %d\n", *(&i));   // *(&i) = *j
     printf("The value of i = %d\n\n", **k);
-   
+
     printf("The address of i = %u\n", &i);  // &i = j
     printf("The address of i = %d\n", *(&j));
     printf("The address of i = %d\n\n", *k);

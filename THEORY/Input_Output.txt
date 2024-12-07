@@ -1,0 +1,6 @@
+There are two numerous library functions for I/O 
+They can be be classified in two broad categories :-
+
+1> Consol I/O =  Functions to receive input from keyboard and write output to VDU.
+
+2> File I/O = Functions to perform I/O operations on a floppy disk or a hard disk.

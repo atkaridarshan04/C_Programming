@@ -14,7 +14,7 @@ int main()
 }
 
 int factorial(int x)
-{                              // RECURSION MEANS FUNCTION KE ANDAR FUNCTION
+{                              // RECURSION MEANS FUNCTION IN FUNCTION
     if (x == 1 || x == 0)
     {
         return 1;

@@ -4,7 +4,7 @@ Consider the following statement in which the type 'unsigned long int' is redefi
 the type 'TWOWORDS'.
 typedef unsigned long int TWOWORDS;  --> application
 
-Now we can declare variables of the type unsigned long int by writing,
+Now we can declare variables of the type 'unsigned long int' by writing,
 TWOWORDS var1, var2 ;
 
 instead of :-
